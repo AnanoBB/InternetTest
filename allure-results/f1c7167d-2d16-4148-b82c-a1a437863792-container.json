@@ -1,0 +1,1 @@
+{"uuid":"f1c7167d-2d16-4148-b82c-a1a437863792","name":"internet-test","children":["a4ccdabf-9b65-4158-9011-c744b7cc15db"],"befores":[{"name":"goToWebsite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1608065411907,"stop":1608065418468}],"afters":[],"links":[],"start":1608065411880,"stop":1608065418702}
