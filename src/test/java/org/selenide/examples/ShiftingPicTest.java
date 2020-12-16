@@ -17,7 +17,7 @@ public class ShiftingPicTest {
         open("http://the-internet.herokuapp.com/shifting_content/image");
     }
 
-    @Test
+    @Test(description = "Must click on button and check if image changes position")
     public void checkIfStylesChange(){
         ShiftingPic locationBeforeClick = new ShiftingPic();
         locationBeforeClick.getCssProperty(".shift","left");

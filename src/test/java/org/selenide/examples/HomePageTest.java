@@ -12,7 +12,7 @@ public class HomePageTest {
         open("http://the-internet.herokuapp.com/shifting_content");
     }
 
-    @Test
+    @Test(description = "Goes to menu page, hovers on 'Home' button and cheks if font-size is changing")
     public void checkIfChangesAfterHover(){
         HomePage getSize1 = new HomePage();
         getSize1.clickOnMenu();
@@ -24,7 +24,7 @@ public class HomePageTest {
         Assert.assertNotEquals(getSize1,getSize);
     }
 
-    @Test
+    @Test(description = "Goes to menu page, hovers on 'Home' button and cheks if color is changing")
     public void checkIfChangesSizeAfterHover(){
 
         HomePage getColor = new HomePage();
