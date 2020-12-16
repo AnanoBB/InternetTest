@@ -1,7 +1,5 @@
 package org.selenide.examples;
 import PageObject.ChallengingDomPage;
-import PageObject.ChallengingDomPage.*;
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -12,17 +10,14 @@ import java.util.List;
 import static com.codeborne.selenide.Selenide.open;
 
 public class ChallengingDomTest  {
-//    public ChallengingDomTest(){
-//        this.el = ChallengingDomPage
-//    }
 
     @BeforeTest
     public void goToWebsite(){
         open("http://the-internet.herokuapp.com/challenging_dom");
     }
 
-    @Test
-    public void rame(){
+    @Test(description = "gets elements of first row and checks that each one of them ends with '0' ")
+    public void loopingThroughRowElements(){
         ChallengingDomPage newF = new ChallengingDomPage();
         List newColl = newF.getElements();
 

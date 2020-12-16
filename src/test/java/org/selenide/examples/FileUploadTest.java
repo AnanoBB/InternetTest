@@ -15,19 +15,16 @@ import static com.codeborne.selenide.Selenide.open;
 public class FileUploadTest {
 
 
-    @BeforeTest
+    @BeforeTest(description = "Go the upload web page ")
     public void goToWebsite(){
         open("http://the-internet.herokuapp.com/upload");
     }
 
-    @Test
+    @Test(description = "uploades file and clicks 'uplaod' button and tests if uploaded file appers")
     public void uploadFile(){
         FileUploadPage catPic = new FileUploadPage();
         catPic.uploadFile("src/test/pics/catPic.jpg","#file-upload");
         catPic.clickUploadButton("#file-submit");
-
-
-
 
         FileUploadPage pic = new FileUploadPage();
         SelenideElement picture = pic.getUploaded("#uploaded-files");

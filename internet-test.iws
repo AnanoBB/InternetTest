@@ -3,8 +3,42 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d427d3d-2307-45ec-9606-3bdc51c96686" name="Default Changelist" comment="" />
+    <list default="true" id="0d427d3d-2307-45ec-9606-3bdc51c96686" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/ShiftingPic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenide/examples/ShiftingPicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-test.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/internet-test.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-test.iws" beforeDir="false" afterPath="$PROJECT_DIR$/internet-test.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenide/examples/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenide/examples/ChallengingDomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenide/examples/ChallengingDomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenide/examples/FileUploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenide/examples/FileUploadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObject/ChallengingDomPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObject/ChallengingDomPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObject/FileUploadPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObject/FileUploadPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/selenide/examples/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/selenide/examples/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/selenide/examples/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/selenide/examples/ChallengingDomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/selenide/examples/ChallengingDomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/selenide/examples/FileUploadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/selenide/examples/FileUploadTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,6 +212,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HierarchyBrowserManager">
     <option name="SHOW_PACKAGES" value="false" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -235,6 +272,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1lhOjsFxYi22owFASCEBJqCpl67" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewSettings">
     <navigator currentView="ProjectPane" flattenPackages="false" showMembers="false" showStructure="false" autoscrollToSource="false" splitterProportion="0.5" />
     <view id="ProjectPane">
@@ -259,14 +297,14 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/pics" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Unnamed">
+  <component name="RunManager" selected="TestNG.ShiftingPic">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -314,24 +352,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="internet-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.selenide.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.selenide.examples" />
-      <option name="MAIN_CLASS_NAME" value="org.selenide.examples.HomePageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
+    <configuration name="FileUploadTest" type="TestNG">
       <module name="internet-test" />
       <useClassPathOnly />
       <option name="SUITE_NAME" value="" />
@@ -351,9 +372,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="internet-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.selenide.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.selenide.examples" />
+      <option name="MAIN_CLASS_NAME" value="org.selenide.examples.HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiftingPic" type="TestNG">
+      <module name="internet-test" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.selenide.examples" />
+      <option name="MAIN_CLASS_NAME" value="org.selenide.examples.ShiftingPicTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.ChallengingDomTest" />
-      <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="TestNG.FileUploadTest" />
+      <item itemvalue="TestNG.ShiftingPic" />
       <item itemvalue="TestNG.HomePageTest" />
     </list>
     <recent_temporary>
@@ -390,6 +449,14 @@
       <option name="presentableId" value="Default" />
       <updated>1608045994842</updated>
     </task>
+    <task id="LOCAL-00001" summary="intial commit">
+      <created>1608071312133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608071312133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -403,6 +470,21 @@
       <flatten-packages value="false" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="intial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="intial commit" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -457,51 +539,67 @@
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="165" y="129" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608065443747">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state x="164" y="104" width="1259" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608100183520">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
+    <state x="164" y="104" width="1259" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1608100183520" />
+    <state x="1567" y="98" width="972" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1112.770/0.0.1440.900@1440.0.1112.770" timestamp="1608097275098" />
     <state x="165" y="129" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1112.747/0.23.1440.830@0.23.1440.830" timestamp="1608065443747" />
-    <state x="438" y="375" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608065441762">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state x="438" y="375" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608100181813">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
+    <state x="438" y="375" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.831@0.23.1440.831" timestamp="1608100181813" />
     <state x="438" y="375" key="#com.intellij.ide.util.TreeClassChooserDialog/1440.23.1112.747/0.23.1440.830@0.23.1440.830" timestamp="1608065441762" />
     <state x="360" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608059628763">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="360" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.830@0.23.1440.830" timestamp="1608059628763" />
-    <state width="1256" height="281" key="GridCell.Tab.0.bottom" timestamp="1608070699929">
+    <state width="1256" height="188" key="GridCell.Tab.0.bottom" timestamp="1608099422742">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1070" height="203" key="GridCell.Tab.0.bottom/1440.0.1112.770/0.0.1440.900@1440.0.1112.770" timestamp="1608057640617" />
+    <state width="1398" height="188" key="GridCell.Tab.0.bottom/1440.0.1112.770/0.0.1440.900@0.0.1440.900" timestamp="1608099304170" />
+    <state width="1070" height="322" key="GridCell.Tab.0.bottom/1440.0.1112.770/0.0.1440.900@1440.0.1112.770" timestamp="1608097285350" />
     <state width="1256" height="195" key="GridCell.Tab.0.bottom/1440.23.1112.747/0.23.1440.830@0.23.1440.830" timestamp="1608065504490" />
-    <state width="1256" height="281" key="GridCell.Tab.0.bottom/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608070699929" />
-    <state width="1256" height="281" key="GridCell.Tab.0.center" timestamp="1608070699928">
+    <state width="1256" height="188" key="GridCell.Tab.0.bottom/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608099422742" />
+    <state width="1256" height="188" key="GridCell.Tab.0.center" timestamp="1608099422742">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1070" height="203" key="GridCell.Tab.0.center/1440.0.1112.770/0.0.1440.900@1440.0.1112.770" timestamp="1608057640615" />
+    <state width="1398" height="188" key="GridCell.Tab.0.center/1440.0.1112.770/0.0.1440.900@0.0.1440.900" timestamp="1608099304168" />
+    <state width="1070" height="322" key="GridCell.Tab.0.center/1440.0.1112.770/0.0.1440.900@1440.0.1112.770" timestamp="1608097285349" />
     <state width="1256" height="195" key="GridCell.Tab.0.center/1440.23.1112.747/0.23.1440.830@0.23.1440.830" timestamp="1608065504489" />
-    <state width="1256" height="281" key="GridCell.Tab.0.center/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608070699928" />
-    <state width="1256" height="281" key="GridCell.Tab.0.left" timestamp="1608070699927">
+    <state width="1256" height="188" key="GridCell.Tab.0.center/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608099422742" />
+    <state width="1256" height="188" key="GridCell.Tab.0.left" timestamp="1608099422742">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1070" height="203" key="GridCell.Tab.0.left/1440.0.1112.770/0.0.1440.900@1440.0.1112.770" timestamp="1608057640612" />
+    <state width="1398" height="188" key="GridCell.Tab.0.left/1440.0.1112.770/0.0.1440.900@0.0.1440.900" timestamp="1608099304167" />
+    <state width="1070" height="322" key="GridCell.Tab.0.left/1440.0.1112.770/0.0.1440.900@1440.0.1112.770" timestamp="1608097285348" />
     <state width="1256" height="195" key="GridCell.Tab.0.left/1440.23.1112.747/0.23.1440.830@0.23.1440.830" timestamp="1608065504488" />
-    <state width="1256" height="281" key="GridCell.Tab.0.left/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608070699927" />
-    <state width="1256" height="281" key="GridCell.Tab.0.right" timestamp="1608070699928">
+    <state width="1256" height="188" key="GridCell.Tab.0.left/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608099422742" />
+    <state width="1256" height="188" key="GridCell.Tab.0.right" timestamp="1608099422742">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1070" height="203" key="GridCell.Tab.0.right/1440.0.1112.770/0.0.1440.900@1440.0.1112.770" timestamp="1608057640616" />
+    <state width="1398" height="188" key="GridCell.Tab.0.right/1440.0.1112.770/0.0.1440.900@0.0.1440.900" timestamp="1608099304169" />
+    <state width="1070" height="322" key="GridCell.Tab.0.right/1440.0.1112.770/0.0.1440.900@1440.0.1112.770" timestamp="1608097285349" />
     <state width="1256" height="195" key="GridCell.Tab.0.right/1440.23.1112.747/0.23.1440.830@0.23.1440.830" timestamp="1608065504489" />
-    <state width="1256" height="281" key="GridCell.Tab.0.right/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608070699928" />
-    <state x="169" y="23" width="1024" height="830" key="SettingsEditor" timestamp="1608070560795">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state width="1256" height="188" key="GridCell.Tab.0.right/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608099422742" />
+    <state x="1571" y="0" width="900" height="769" key="SettingsEditor" timestamp="1608098072788">
+      <screen x="1440" y="0" width="1112" height="770" />
     </state>
+    <state x="1571" y="0" width="900" height="769" key="SettingsEditor/1440.0.1112.770/0.23.1440.877@1440.0.1112.770" timestamp="1608098072788" />
     <state x="354" y="23" width="1024" height="830" key="SettingsEditor/1440.23.1112.747/0.23.1440.830@0.23.1440.830" timestamp="1608046110088" />
     <state x="354" y="23" key="SettingsEditor/1440.23.1112.747/0.23.1440.831@0.23.1440.831" timestamp="1608070105657" />
     <state x="169" y="23" key="SettingsEditor/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608070560795" />
+    <state x="250" y="117" key="Vcs.Push.Dialog.v2" timestamp="1608071336213">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="250" y="117" key="Vcs.Push.Dialog.v2/0.23.1440.832@0.23.1440.832" timestamp="1608071336213" />
     <state x="1948" y="35" width="604" height="735" key="find.popup" timestamp="1608064369201">
       <screen x="1440" y="23" width="1112" height="747" />
     </state>
     <state x="1948" y="35" width="604" height="735" key="find.popup/1440.23.1112.747/0.23.1440.830@0.23.1440.830" timestamp="1608064369201" />
+    <state x="78" y="100" key="new project wizard" timestamp="1608099416657">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="78" y="100" key="new project wizard/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608099416657" />
   </component>
 </project>
