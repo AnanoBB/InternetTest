@@ -29,7 +29,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d427d3d-2307-45ec-9606-3bdc51c96686" name="Default Changelist" comment="few minor changes" />
+    <list default="true" id="0d427d3d-2307-45ec-9606-3bdc51c96686" name="Default Changelist" comment="allure descriptions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,7 +295,7 @@
       <recent name="$PROJECT_DIR$/src/test/pics" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ChallengingDomTest">
+  <component name="RunManager" selected="TestNG.HomePageTest">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -461,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608107732105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="allure descriptions">
+      <created>1608108818475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608108818475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -503,7 +510,8 @@
     <MESSAGE value="intial commit" />
     <MESSAGE value="Check if shifting page works" />
     <MESSAGE value="few minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="few minor changes" />
+    <MESSAGE value="allure descriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="allure descriptions" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -620,9 +628,10 @@
     <state x="354" y="23" width="1024" height="830" key="SettingsEditor/1440.23.1112.747/0.23.1440.830@0.23.1440.830" timestamp="1608046110088" />
     <state x="354" y="23" key="SettingsEditor/1440.23.1112.747/0.23.1440.831@0.23.1440.831" timestamp="1608070105657" />
     <state x="169" y="23" key="SettingsEditor/1440.23.1112.747/0.23.1440.832@0.23.1440.832" timestamp="1608070560795" />
-    <state x="250" y="117" key="Vcs.Push.Dialog.v2" timestamp="1608107752059">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state x="250" y="102" key="Vcs.Push.Dialog.v2" timestamp="1608108830224">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="250" y="102" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608108830224" />
     <state x="250" y="117" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1608100397427" />
     <state x="250" y="117" key="Vcs.Push.Dialog.v2/0.23.1440.832@0.23.1440.832" timestamp="1608107752059" />
     <state x="1948" y="35" width="604" height="735" key="find.popup" timestamp="1608064369201">
