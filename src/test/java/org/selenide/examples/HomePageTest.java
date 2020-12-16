@@ -9,12 +9,13 @@ import static com.codeborne.selenide.Selenide.open;
 public class HomePageTest {
     @BeforeTest
     public void goToWebsite(){
-        open("http://the-internet.herokuapp.com/shifting_content/menu");
+        open("http://the-internet.herokuapp.com/shifting_content");
     }
 
     @Test
     public void checkIfChangesAfterHover(){
         HomePage getSize1 = new HomePage();
+        getSize1.clickOnMenu();
         getSize1.getCssProperty("font-size");
         HomePage getSize = new HomePage();
         getSize.hoverOnElement();
@@ -25,10 +26,11 @@ public class HomePageTest {
 
     @Test
     public void checkIfChangesSizeAfterHover(){
+
         HomePage getColor = new HomePage();
         getColor.getCssProperty("color");
         HomePage getColorAfterHover = new HomePage();
-        getColorAfterHover.hoverOnElement();
+        getColor.hoverOnElement();
         getColorAfterHover.getCssProperty("color");
 
         Assert.assertNotEquals(getColor,getColorAfterHover);

@@ -17,6 +17,12 @@ public class HomePage {
         $(By.xpath("//*[@id=\"content\"]/div/ul/li[1]/a")).hover();
     }
 
+    public void clickOnMenu(){
+        $(By.xpath("//*[@id=\"content\"]/div/a[1]")).click();
+    }
+
+
+
 
 
 
